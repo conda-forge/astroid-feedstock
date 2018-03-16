@@ -39,6 +39,7 @@ test:
 about:
   home: https://github.com/PyCQA/astroid
   license: LGPL 2.1
+  license_file: COPYING.LESSER
   summary: 'A abstract syntax tree for Python with inference support.'
 
 extra:

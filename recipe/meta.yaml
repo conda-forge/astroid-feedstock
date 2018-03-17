@@ -1,6 +1,6 @@
 {% set name = "astroid" %}
-{% set version = "1.6.1" %}
-{% set sha256 = "f0a0e386dbca9f93ea9f3ea6f32b37a24720502b7baa9cb17c3976a680d43a06" %}
+{% set version = "1.6.2" %}
+{% set sha256 = "a92c1197dd496ef2470e73e1c296fc02a719907ee07259744e26a13bda9d4862" %}
 
 package:
   name: {{ name|lower }}
@@ -39,6 +39,7 @@ test:
 about:
   home: https://github.com/PyCQA/astroid
   license: LGPL 2.1
+  license_file: COPYING.LESSER
   summary: 'A abstract syntax tree for Python with inference support.'
 
 extra:

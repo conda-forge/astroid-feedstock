@@ -1,6 +1,6 @@
 {% set name = "astroid" %}
-{% set version = "1.6.2" %}
-{% set sha256 = "a92c1197dd496ef2470e73e1c296fc02a719907ee07259744e26a13bda9d4862" %}
+{% set version = "1.6.3" %}
+{% set sha256 = "35cfae47aac19c7b407b7095410e895e836f2285ccf1220336afba744cc4c5f2" %}
 
 package:
   name: {{ name|lower }}

@@ -14,14 +14,16 @@ Summary: A abstract syntax tree for Python with inference support.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/astroid-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/astroid-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/astroid-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/astroid-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/astroid-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/astroid-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/astroid-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/astroid-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/astroid-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/astroid-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/astroid-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/astroid-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/astroid/badges/version.svg)](https://anaconda.org/conda-forge/astroid)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/astroid/badges/downloads.svg)](https://anaconda.org/conda-forge/astroid)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-astroid-green.svg)](https://anaconda.org/conda-forge/astroid) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/astroid.svg)](https://anaconda.org/conda-forge/astroid) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/astroid.svg)](https://anaconda.org/conda-forge/astroid) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/astroid.svg)](https://anaconda.org/conda-forge/astroid) |
 
 Installing astroid
 ==================

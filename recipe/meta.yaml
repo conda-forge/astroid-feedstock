@@ -1,6 +1,6 @@
 {% set name = "astroid" %}
-{% set version = "1.6.5" %}
-{% set sha256 = "fc9b582dba0366e63540982c3944a9230cbc6f303641c51483fa547dcc22393a" %}
+{% set version = "2.0.2" %}
+{% set sha256 = "a48b57ede295c3188ef5c84273bc2a8eadc46e4cbb001eae0d49fb5d1fabbb19" %}
 
 package:
   name: {{ name|lower }}
@@ -13,27 +13,25 @@ source:
 
 build:
   number: 0
+  skip: True  # [py2k]
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   host:
     - python
     - pip
+    - pytest-runner
   run:
     - python
-    - setuptools
-    - enum34  # [py2k]
-    - singledispatch  # [py2k]
-    - backports.functools_lru_cache  # [py2k]
-    - six
     - lazy-object-proxy
+    - six
     - wrapt
+    - typed-ast   # [py<37]
+    - typing      # [py<35]
 
 test:
   imports:
     - astroid
-    - astroid.tests
-    # import modutils to expose the setuptools runtime requirement
     - astroid.modutils
 
 about:
@@ -53,3 +51,4 @@ extra:
   recipe-maintainers:
     - ericdill
     - jakirkham
+    - jjhelmus

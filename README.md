@@ -1,7 +1,7 @@
 About astroid
 =============
 
-Home: https://github.com/PyCQA/astroid
+Home: https://www.astroid.org/
 
 Package license: LGPL 2.1
 
@@ -9,6 +9,8 @@ Feedstock license: BSD 3-Clause
 
 Summary: A abstract syntax tree for Python with inference support.
 
+Astroid provide a common base representation of python source code for
+projects such as pychecker, pyreverse, pylint.
 
 
 Current build status

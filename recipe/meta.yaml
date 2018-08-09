@@ -23,6 +23,7 @@ requirements:
     - pytest-runner
   run:
     - python
+    - setuptools
     - lazy-object-proxy
     - six
     - wrapt

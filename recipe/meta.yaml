@@ -9,7 +9,7 @@ source:
   sha256: 71ea07f44df9568a75d0f354c49143a4575d90645e9fead6dfb52c26a85ed13a
 
 build:
-  number: 0
+  number: 1
   skip: True  # [py2k]
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
@@ -24,13 +24,17 @@ requirements:
     - lazy-object-proxy
     - six
     - wrapt
-    - typed-ast   # [py<37]
+    - typed-ast   # [py<38]
     - typing      # [py<35]
 
 test:
+  requires:
+    - pip
   imports:
     - astroid
     - astroid.modutils
+  commands:
+    - python -m pip check
 
 about:
   home: https://www.astroid.org/

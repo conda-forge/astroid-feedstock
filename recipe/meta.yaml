@@ -22,7 +22,7 @@ requirements:
     - python
     - setuptools
     - lazy-object-proxy ==1.4.*
-    - six ==1.12.*
+    - six >=1.12,<2
     - wrapt ==1.11.*
     - typed-ast   # [py<38]
     - typing      # [py<35]

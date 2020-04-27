@@ -1,4 +1,4 @@
-{% set version = "2.3.3" %}
+{% set version = "2.4.0" %}
 
 package:
   name: astroid
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/astroid/astroid-{{ version }}.tar.gz
-  sha256: 71ea07f44df9568a75d0f354c49143a4575d90645e9fead6dfb52c26a85ed13a
+  sha256: 29fa5d46a2404d01c834fcb802a3943685f1fc538eb2a02a161349f5505ac196
 
 build:
-  number: 3
-  skip: True  # [py2k]
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  number: 0
+  skip: true  # [py<35]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -24,8 +24,7 @@ requirements:
     - lazy-object-proxy ==1.4.*
     - six >=1.12,<2
     - wrapt ==1.11.*
-    - typed-ast   # [py<38]
-    - typing      # [py<35]
+    - typed-ast >=1.4.0,<1.5  # [py<38]
 
 test:
   requires:
@@ -38,10 +37,11 @@ test:
 
 about:
   home: https://www.astroid.org/
-  license: LGPL 2.1
+  # Upstream include the LGPL 2.1 license and has no mention of "or later" in the source
+  license: LGPL-2.1-only
   license_family: LGPL
   license_file: COPYING.LESSER
-  summary: 'A abstract syntax tree for Python with inference support.'
+  summary: A abstract syntax tree for Python with inference support.
   description: |
     Astroid provide a common base representation of python source code for
     projects such as pychecker, pyreverse, pylint.

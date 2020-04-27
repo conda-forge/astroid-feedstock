@@ -37,7 +37,8 @@ test:
 
 about:
   home: https://www.astroid.org/
-  license: LGPL 2.1
+  # Upstream include the LGPL 2.1 license and has no mention of "or later" in the source
+  license: LGPL-2.1-only
   license_family: LGPL
   license_file: COPYING.LESSER
   summary: A abstract syntax tree for Python with inference support.

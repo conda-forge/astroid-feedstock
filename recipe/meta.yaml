@@ -9,7 +9,7 @@ source:
   sha256: b31c92f545517dcc452f284bc9c044050862fbe6d93d2b3de4a215a6b384bf0d
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<35]
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
@@ -21,9 +21,9 @@ requirements:
   run:
     - python
     - setuptools
-    - lazy-object-proxy ==1.4.*
+    - lazy-object-proxy >=1.4,<2
     - six >=1.12,<2
-    - wrapt ==1.11.*
+    - wrapt >=1.11,<2
     - typed-ast >=1.4.0,<1.5  # [py<38]
 
 test:

@@ -3,7 +3,7 @@ About astroid
 
 Home: https://www.astroid.org/
 
-Package license: LGPL-2.1-only
+Package license: LGPL-2.1-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/astroid-feedstock/blob/master/LICENSE.txt)
 

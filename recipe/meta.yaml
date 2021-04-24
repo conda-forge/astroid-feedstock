@@ -24,9 +24,8 @@ requirements:
   run:
     - python
     - setuptools
-    - lazy-object-proxy >=1.4,<2
-    - six >=1.12,<2
-    - wrapt >=1.11,<2
+    - lazy_object_proxy >=1.4.0
+    - wrapt >=1.11,<1.13
     - typed-ast >=1.4.0,<1.5  # [py<38]
 
 test:
@@ -40,10 +39,9 @@ test:
 
 about:
   home: https://www.astroid.org/
-  # Upstream include the LGPL 2.1 license and has no mention of "or later" in the source
-  license: LGPL-2.1-only
+  license: LGPL-2.1-or-later
   license_family: LGPL
-  license_file: COPYING.LESSER
+  license_file: LICENSE
   summary: A abstract syntax tree for Python with inference support.
   description: |
     Astroid provide a common base representation of python source code for

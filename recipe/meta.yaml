@@ -21,12 +21,14 @@ requirements:
     - python
     - pip
     - pytest-runner
+    - setuptools_scm
   run:
     - python
     - setuptools
     - lazy-object-proxy >=1.4.0
     - wrapt >=1.11,<1.13
     - typed-ast >=1.4.0,<1.5  # [py<38]
+    - typing-extensions >=3.7.4  # [py<38]
 
 test:
   requires:

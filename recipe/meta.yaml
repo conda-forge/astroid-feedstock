@@ -26,8 +26,8 @@ requirements:
     - python
     - setuptools >=20.0
     - lazy-object-proxy >=1.4.0
-    - wrapt >=1.11,<1.13
-    - typed-ast >=1.4.0,<1.5  # [py<38]
+    - wrapt >=1.11,<1.14
+    - typed-ast >=1.4.0,<2.0  # [py<38]
     - typing-extensions >=3.10  # [py<=39]
 
 test:

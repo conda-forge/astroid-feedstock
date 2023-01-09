@@ -10,7 +10,7 @@ source:
 
 build:
   number: 0
-  skip: true  # [py<36]
+  skip: true  # [py<37]
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -22,11 +22,11 @@ requirements:
     - pip
   run:
     - python
-    - setuptools >=20.0
     - lazy-object-proxy >=1.4.0
-    - wrapt >=1.11,<2
-    - typed-ast >=1.4.0,<2.0  # [py<38]
-    - typing-extensions >=3.10  # [py<=310]
+    - typing-extensions >=4.0.0  # [py<=310]
+    - typed-ast <2.0,>=1.4.0  # [py<38]
+    - wrapt <2,>=1.11
+    - setuptools >=20.0
 
 test:
   requires:

@@ -1,4 +1,4 @@
-{% set version = "2.14.0" %}
+{% set version = "2.14.1" %}
 
 package:
   name: astroid
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/astroid/astroid-{{ version }}.tar.gz
-  sha256: 708543bfd31c1b93f0db24624a3b19c73807294743cb5d0b02fe9341c1715075
+  sha256: bd1aa4f9915c98e8aaebcd4e71930154d4e8c9aaf05d35ac0a63d1956091ae3f
 
 build:
   number: 0

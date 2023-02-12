@@ -404,4 +404,5 @@ Feedstock Maintainers
 * [@jakirkham](https://github.com/jakirkham/)
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@timkpaine](https://github.com/timkpaine/)
+* [@wshanks](https://github.com/wshanks/)
 

@@ -1,11 +1,11 @@
-About astroid
-=============
+About astroid-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/astroid-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.astroid.org/
 
 Package license: LGPL-2.1-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/astroid-feedstock/blob/main/LICENSE.txt)
 
 Summary: A abstract syntax tree for Python with inference support.
 

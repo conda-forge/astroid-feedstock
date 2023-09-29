@@ -9,7 +9,7 @@ source:
   sha256: 1defdbca052635dd29657ea674edfc45e4b5be9cd53630c5b084fcfed94344a8
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<37]
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -23,11 +23,7 @@ requirements:
     - pip
   run:
     - python
-    - lazy-object-proxy >=1.4.0
     - typing-extensions >=4.0.0  # [py<311]
-    - typed-ast <2.0,>=1.4.0  # [py<38]
-    - wrapt <2,>=1.11  # [py<311]
-    - wrapt <2,>=1.14  # [py>=311]
 
 test:
   requires:

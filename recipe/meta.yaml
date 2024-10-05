@@ -22,7 +22,6 @@ requirements:
     - setuptools >=64.0
     - pip
   run:
-    - typing_extensions >=4.0.0
     - python
     - typing-extensions >=4.0.0  # [py<311]
 

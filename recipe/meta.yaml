@@ -1,12 +1,12 @@
-{% set version = "3.3.5" %}
+{% set version = "3.3.6" %}
 
 package:
   name: astroid
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/a/astroid/astroid-{{ version }}.tar.gz
-  sha256: 5cfc40ae9f68311075d27ef68a4841bdc5cc7f6cf86671b49f00607d30188e2d
+  url: https://pypi.org/packages/source/a/astroid/astroid-{{ version }}.tar.gz
+  sha256: 6aaea045f938c735ead292204afdb977a36e989522b7833ef6fea94de743f442
 
 build:
   number: 0
@@ -19,11 +19,11 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
   host:
     - python
-    - setuptools >=64.0
+    - setuptools >=75.2.0
     - pip
   run:
     - python
-    - typing-extensions >=4.0.0  # [py<311]
+    - typing_extensions >=4.0.0  # [py<311]
 
 test:
   requires:

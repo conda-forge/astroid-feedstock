@@ -44,8 +44,8 @@ about:
     Astroid provide a common base representation of python source code for
     projects such as pychecker, pyreverse, pylint.
   doc_url: http://astroid.readthedocs.io/en/latest/?badge=latest
-  doc_source_url: https://github.com/PyCQA/astroid/blob/master/doc/index.rst
-  dev_url: https://github.com/PyCQA/astroid
+  doc_source_url: https://github.com/pylint-dev/astroid/blob/master/doc/index.rst
+  dev_url: https://github.com/pylint-dev/astroid
 
 extra:
   recipe-maintainers:

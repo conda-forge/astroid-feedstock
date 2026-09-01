@@ -16,7 +16,6 @@ Documentation: http://astroid.readthedocs.io/en/latest/?badge=latest
 Astroid provide a common base representation of python source code for
 projects such as pychecker, pyreverse, pylint.
 
-
 Current build status
 ====================
 
@@ -42,13 +41,6 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>osx_64_python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=58&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/astroid-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
               <td>osx_64_python3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=58&branchName=main">
@@ -260,7 +252,4 @@ Feedstock Maintainers
 * [@ocefpaf](https://github.com/ocefpaf/)
 * [@timkpaine](https://github.com/timkpaine/)
 * [@wshanks](https://github.com/wshanks/)
-
-
-<!-- dummy commit to enable rerendering -->
 

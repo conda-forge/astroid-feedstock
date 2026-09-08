@@ -26,12 +26,16 @@ requirements:
     - typing_extensions >=4      # [py<311]
 
 test:
+  files:
+    - test_astroid.py  # [win and arm64]
   requires:
     - pip
   imports:
     - astroid
     - astroid.modutils
   commands:
+    - python test_astroid.py  # [win and arm64]
+    - python -c "import platform; assert platform.machine().lower() in {'arm64', 'aarch64'}, platform.machine()"  # [win and arm64]
     - python -m pip check
 
 about:

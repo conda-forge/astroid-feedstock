@@ -20,7 +20,7 @@ requirements:
   build:
     - if: build_platform != target_platform
       then:
-        - python_
+        - python
         - cross-python_${{ target_platform }}
   host:
     - python

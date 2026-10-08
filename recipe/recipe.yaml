@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "4.3.3"
+  version: "4.3.4"
 
 package:
   name: astroid
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/a/astroid/astroid-${{ version }}.tar.gz
-  sha256: d03854b09d92c08e18d8e7d9185d393961186ed0747136d8fcb2d1c008a504ec
+  sha256: d515a105722b72098bbe82d430d65e635f742b6cbac3bdfaf8b7c188b87c5e39
 
 build:
   number: 0

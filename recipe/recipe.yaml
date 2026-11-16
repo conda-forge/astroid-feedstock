@@ -12,7 +12,7 @@ source:
   sha256: d515a105722b72098bbe82d430d65e635f742b6cbac3bdfaf8b7c188b87c5e39
 
 build:
-  number: 0
+  number: 1
   skip: match(python, "<3.10")
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -37,8 +37,10 @@ tests:
 
 about:
   summary: An abstract syntax tree for Python with inference support.
-  license: LGPL-2.1-only
-  license_file: LICENSE
+  license: LGPL-2.1-or-later
+  license_file:
+    - LICENSE
+    - CONTRIBUTORS.txt
   homepage: https://pypi.org/project/astroid/
 
 extra:

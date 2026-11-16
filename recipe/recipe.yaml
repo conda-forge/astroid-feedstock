@@ -37,8 +37,10 @@ tests:
 
 about:
   summary: An abstract syntax tree for Python with inference support.
-  license: LGPL-2.1-only
-  license_file: LICENSE
+  license: LGPL-2.1-or-later
+  license_file:
+    - LICENSE
+    - CONTRIBUTORS.txt
   homepage: https://pypi.org/project/astroid/
 
 extra:
